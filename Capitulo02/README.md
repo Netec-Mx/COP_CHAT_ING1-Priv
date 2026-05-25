@@ -589,89 +589,6 @@ pero colaborativo], manteniendo todos los datos y referencias contractuales sin 
 
 ---
 
-## Validación y Pruebas
-
-Al finalizar todos los pasos, realiza la siguiente verificación integral del laboratorio:
-
-### Lista de verificación final del laboratorio
-
-**Documentos generados:**
-- [ ] Caso de negocio con 6 secciones y tabla costo-beneficio (Sección 1).
-- [ ] Acta de reunión de kick-off con tabla de acuerdos y líneas de firma (Sección 2).
-- [ ] Cronograma preliminar con 5 fases, 15+ actividades y supuestos/restricciones (Sección 3).
-- [ ] Matriz de interesados con 10+ interesados y leyenda de cuadrantes (Sección 4).
-- [ ] Documento de lecciones aprendidas con 6 lecciones y tabla resumen (Sección 5).
-- [ ] Tres correos contractuales (RFQ, confirmación, notificación) (Sección 6).
-
-**Habilidades de prompting demostradas:**
-- [ ] Uso correcto de la estructura CTF (Contexto–Tarea–Formato) en al menos 4 prompts.
-- [ ] Uso de prompting en cadena (follow-up) en al menos 2 conversaciones.
-- [ ] Inicio de nueva conversación cuando fue necesario para evitar contaminación de contexto.
-- [ ] Aplicación de prompt de ajuste de tono en el correo de notificación.
-
-**Criterio crítico aplicado:**
-- [ ] Se identificaron y corrigieron inconsistencias entre secciones.
-- [ ] Se verificó la coherencia de fechas y cifras financieras.
-- [ ] Se agregaron notas de validación pendiente en todas las secciones.
-- [ ] El documento final tiene portada con indicación de "generado con asistencia de IA".
-
-**Prueba de consistencia cruzada:** Verifica que los siguientes datos sean idénticos en todas las secciones donde aparecen:
-
-| Dato | Valor correcto | ¿Consistente en todo el documento? |
-|---|---|---|
-| Nombre del proyecto | Implementación del Sistema de Control de Inventarios (SCI-2026) | ☐ |
-| Nombre del PM | Diego Herrera | ☐ |
-| Nombre de la Patrocinadora | Dra. Laura Mendoza | ☐ |
-| Presupuesto total | USD 85.000 | ☐ |
-| Duración del proyecto | 6 meses (15 enero – 15 julio 2026) | ☐ |
-| Número de contrato | ERP-2026-007 | ☐ |
-
----
-
-## Solución de Problemas
-
-### Problema 1: Copilot genera el documento en inglés o mezcla idiomas
-
-**Síntoma:** La respuesta de Copilot aparece parcial o totalmente en inglés, o mezcla términos en inglés y español de forma inconsistente.
-
-**Causa:** Copilot puede detectar términos técnicos en inglés dentro del prompt (como "ERP", "MVP", "PMO", "RFQ") y cambiar el idioma de respuesta, especialmente si la cuenta Microsoft está configurada en inglés.
-
-**Solución:**
-1. Al inicio de cada nueva conversación, envía primero este mensaje de configuración antes del prompt principal:
-   ```text
-   A partir de ahora, responde siempre en español neutro latinoamericano, 
-   independientemente del idioma en que esté escrito el prompt o los términos técnicos. 
-   Mantén los acrónimos técnicos (ERP, PMO, KPI, etc.) en su forma original pero 
-   explícalos en español.
-   ```
-2. Si la respuesta ya llegó en inglés, envía: `Por favor, traduce tu respuesta anterior al español neutro latinoamericano manteniendo exactamente el mismo formato y estructura.`
-3. Si el problema persiste, verifica la configuración de idioma de tu cuenta Microsoft en `account.microsoft.com` y cambia el idioma preferido a Español (Colombia) o Español (México).
-
----
-
-### Problema 2: La tabla del cronograma o de interesados no se formatea correctamente al pegar en Word
-
-**Síntoma:** Al pegar el contenido de Copilot en Word, la tabla aparece como texto plano separado por barras verticales (`|`), sin formato de tabla real, o las columnas se desalinean.
-
-**Causa:** Copilot genera las tablas en formato Markdown (texto plano con `|` como delimitadores de columna). Word no siempre interpreta este formato automáticamente, especialmente en versiones anteriores o al usar "Pegado especial → Solo texto".
-
-**Solución — Opción A (Pegado directo con formato):**
-1. En lugar de Ctrl+V, usa **Ctrl+Alt+V** (Pegado especial) y selecciona **"Texto Unicode"** o **"Mantener formato de origen"**.
-2. Si Word reconoce el formato Markdown, la tabla se creará automáticamente.
-
-**Solución — Opción B (Conversión manual):**
-1. Pega el texto plano en Word.
-2. Selecciona todo el texto de la tabla.
-3. Ve a **Insertar → Tabla → Convertir texto en tabla**.
-4. En el cuadro de diálogo, selecciona **"Otro"** como separador y escribe `|` (barra vertical).
-5. Ajusta el número de columnas si es necesario y haz clic en Aceptar.
-
-**Solución — Opción C (Solicitar formato alternativo a Copilot):**
-1. Si ninguna opción anterior funciona, envía a Copilot: `Regenera la tabla anterior en formato CSV separado por comas, sin barras verticales.`
-2. Pega el CSV en Excel, luego copia la tabla de Excel y pégala en Word.
-
----
-
 ## Limpieza del Entorno
 
 Al finalizar el laboratorio, realiza los siguientes pasos de limpieza:
@@ -732,5 +649,7 @@ En esta práctica de 180 minutos construiste un **portafolio documental completo
 - **Práctica recomendada:** Toma uno de los documentos generados hoy y aplícalo a un proyecto real de tu organización (con datos anonimizados). Mide el tiempo que tardas en adaptarlo vs. el tiempo que tardarías en crearlo desde cero.
 
 ---
+
+
 
 > 🏁 **¡Laboratorio completado!** Has generado seis artefactos profesionales de gestión de proyectos en una sola sesión de trabajo. El portafolio que construiste hoy representa el tipo de documentación que normalmente tomaría varios días producir. Con práctica y refinamiento de tus prompts, este proceso seguirá mejorando en calidad y velocidad.
