@@ -382,8 +382,6 @@ Paso X: Asignar turno de trabajo
 
 #### Paso 9 — Preparar el Texto Fuente
 
-**Objetivo:** Tener listo un texto de 800–1200 palabras para usar como fuente de extracción en los siguientes pasos.
-
 **Instrucciones:**
 
 1. Use el siguiente fragmento de procedimiento de trabajos en altura (ficticio, solo para fines educativos):
