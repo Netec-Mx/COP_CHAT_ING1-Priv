@@ -12,13 +12,13 @@ Este curso práctico permite a profesionales de proyectos, mantenimiento y energ
 
 - [Cómo hablarle a la IA: Contexto, Tarea y Formato.](Capitulo01/README.md#cómo-hablarle-a-la-ia-contexto-tarea-y-formato)
   - Descripción: Actividad práctica guiada basada estrictamente en el contenido del módulo.
-  - Duración estimada: 60 min
+  - Duración estimada: 90 min
 
 ### Capítulo 2
 
 - [Creación de casos de negocios, actas, cronogramas preliminares, interesados, lecciones aprendidas y redacción de correos contractuales.](Capitulo02/README.md#creación-de-casos-de-negocios-actas-cronogramas-preliminares-interesados-lecciones-aprendidas-y-redacción-de-correos-contractuales)
   - Descripción: Actividad práctica guiada basada estrictamente en el contenido del módulo.
-  - Duración estimada: 180 min
+  - Duración estimada: 90 min
 
 ### Capítulo 3
 
