@@ -631,10 +631,6 @@ En esta práctica aplicaste las técnicas de prompting estructurado al contexto 
 
 | Recurso | Descripción | URL |
 |---------|-------------|-----|
-| ISO 45001 | Sistemas de gestión de seguridad y salud en el trabajo | [iso.org/standard/63787.html](https://www.iso.org/standard/63787.html) |
-| OSHA Small Business Handbook | Guía práctica de seguridad y salud ocupacional | [osha.gov/smallbusiness](https://www.osha.gov/smallbusiness) |
-| HSE — Gestión del riesgo | Principios y guía para gestión de riesgos | [hse.gov.uk/risk](https://www.hse.gov.uk/risk/) |
-| PlainLanguage.gov | Guía de lenguaje claro para documentos técnicos | [plainlanguage.gov/guidelines](https://www.plainlanguage.gov/guidelines/) |
 | Microsoft Copilot | Acceso a la herramienta principal del curso | [copilot.microsoft.com](https://copilot.microsoft.com) |
 
 ### Resultado Esperado
