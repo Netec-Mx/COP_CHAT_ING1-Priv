@@ -1,4 +1,4 @@
-# 1. Práctica 4. Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.
+# Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.
 
 ## Metadatos
 
@@ -7,8 +7,8 @@
 | **Duración**     | 90 minutos                                                              |
 | **Complejidad**  | Media                                                                   |
 | **Nivel Bloom**  | Crear                                                                   |
-| **Modalidad**    | Individual con discusión grupal al cierre                               |
-| **Versión**      | 1.0 — 20260523-Rev1                                                     |
+| **Modalidad**    | Individual                                                              |
+| **Versión**      | 1.0                                                                     |
 
 ---
 
@@ -37,9 +37,8 @@ Al completar esta práctica serás capaz de:
 ## Prerrequisitos
 
 ### Conocimiento previo
-- Haber completado la Práctica 1 (Lab 01-00-01) y preferiblemente la Práctica 2 (Lab 02-00-01).
+- Haber completado la Práctica 1 y preferiblemente la Práctica 2.
 - Comprender la estructura de prompts con Contexto, Tarea y Formato.
-- Conocimiento básico del área operativa o de mantenimiento del participante (para personalizar los ejercicios opcionales).
 - Familiaridad básica con Microsoft Word o Excel para copiar, pegar y formatear texto.
 
 ### Acceso y cuentas requeridas
@@ -48,32 +47,9 @@ Al completar esta práctica serás capaz de:
 - Acceso a **Microsoft Excel** (Microsoft 365 o Excel 2019) o **Excel Online**.
 - Bloc de Notas (Notepad) o equivalente para preparar prompts antes de enviarlos.
 
-> 💡 **Alternativa:** Si Copilot no está disponible por restricciones corporativas, puedes usar ChatGPT en [chat.openai.com](https://chat.openai.com). Los prompts de esta práctica son compatibles con ambas herramientas.
-
 ---
 
 ## Entorno de Laboratorio
-
-### Requisitos de hardware
-
-| Componente        | Mínimo requerido                              | Recomendado                          |
-|-------------------|-----------------------------------------------|--------------------------------------|
-| Procesador        | Intel Core i5 / AMD Ryzen 5 (4 núcleos)       | Intel Core i7 / AMD Ryzen 7          |
-| Memoria RAM       | 8 GB                                          | 16 GB                                |
-| Almacenamiento    | 2 GB libres en disco                          | 5 GB libres                          |
-| Monitor           | 1280×768 px                                   | 1920×1080 px                         |
-| Conexión a Internet | 10 Mbps de descarga                         | 25 Mbps o superior                   |
-| Periféricos       | Teclado y ratón funcionales                   | Teclado ergonómico, monitor dual     |
-
-### Requisitos de software
-
-| Software                  | Versión mínima                        | Uso en esta práctica                         |
-|---------------------------|---------------------------------------|----------------------------------------------|
-| Microsoft Edge o Chrome   | Versión 120 o superior                | Acceder a Copilot                            |
-| Microsoft Copilot (web)   | Versión web actual                    | Generar todos los borradores                 |
-| Microsoft Word / Word Online | Microsoft 365 v2308 o Word 2019   | Formatear y guardar reporte de turno         |
-| Microsoft Excel / Excel Online | Microsoft 365 v2308 o Excel 2019 | Formatear y guardar checklist e inspección   |
-| Bloc de Notas / Notepad   | Cualquier versión del SO              | Preparar y almacenar prompts                 |
 
 ### Preparación del entorno (antes de comenzar)
 
@@ -96,21 +72,9 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 
 ---
 
-## Ejercicios Paso a Paso
-
-> 📋 **Estructura de la práctica:**
-> - **Ejercicio 1** (30 min): Reporte de turno desde notas desordenadas
-> - **Ejercicio 2** (25 min): Lista de verificación de seguridad
-> - **Ejercicio 3** (20 min): Formato de inspección simple
-> - **Cierre y reflexión** (15 min): Validación humana y mejores prácticas
-
----
-
 ### Ejercicio 1: Reporte de Turno desde Notas Operativas Desordenadas
 
 **Objetivo del ejercicio:** Transformar un conjunto de notas breves y desordenadas (que simulan las anotaciones reales de un operador durante su turno) en un reporte de turno estructurado, profesional y completo usando Copilot.
-
-**Tiempo estimado:** 30 minutos
 
 ---
 
@@ -151,8 +115,6 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
    - ¿Qué información faltaría para un reporte completo?
 
 **Salida esperada:** Comprensión clara del contenido de las notas y preparación mental para estructurar el prompt.
-
-**Verificación:** Puedes continuar al siguiente paso cuando hayas identificado al menos 1 incidente (bomba B-12), 2 pendientes (calibración PT-201, válvula V-34) y 1 riesgo próximo (tormenta eléctrica).
 
 ---
 
@@ -218,14 +180,6 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 
 **Salida esperada:** Copilot generará un reporte de turno estructurado en Markdown con todas las secciones solicitadas, incluyendo tabla de novedades, incidente de la bomba B-12 con severidad asignada, pendientes con responsables y fechas, y al menos una entrada en el Decision Log.
 
-**Verificación:** El reporte generado debe contener:
-- [ ] Encabezado con ID de reporte, fecha/hora, área y nombres de líderes
-- [ ] Al menos 3 viñetas en el Resumen Ejecutivo priorizadas por riesgo
-- [ ] Tabla de Novedades con al menos 2 filas (B-12 y C-05)
-- [ ] Incidente INC-### con severidad Media para la bomba B-12
-- [ ] Al menos 2 pendientes con responsable y fecha de vencimiento
-- [ ] Al menos 1 entrada en el Decision Log
-
 ---
 
 #### Paso 1.3 — Refinar el reporte con un prompt de seguimiento
@@ -261,11 +215,6 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 
 **Salida esperada:** Una versión mejorada del reporte con el Resumen Ejecutivo reordenado, la sección de adjuntos agregada y la línea de distribución incluida.
 
-**Verificación:** Confirma que la versión refinada:
-- [ ] Muestra la alerta de tormenta como primera viñeta del Resumen Ejecutivo
-- [ ] Incluye una sección de Adjuntos/Evidencia con al menos 2 ítems ficticios
-- [ ] Incluye la línea de Distribución con los tres destinatarios indicados
-
 ---
 
 #### Paso 1.4 — Exportar el reporte a Microsoft Word
@@ -280,32 +229,17 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 
 3. Cambia a tu documento **Word** (`Lab04_ReporteTurno_[TusIniciales]_[Fecha].docx`).
 
-4. Pega el contenido (`Ctrl+V`). Word puede pegarlo como texto plano o intentar interpretar el Markdown.
+4. Pega el contenido (`Ctrl+V`)  y Guarda el documento (`Ctrl+S`).
 
-5. Aplica formato básico manualmente:
-   - El título principal: **Estilo Título 1** (selecciona la línea del título → pestaña Inicio → Estilos → Título 1).
-   - Los encabezados de sección (`##`): **Estilo Título 2**.
-   - Convierte la tabla de Novedades: si se pegó como texto, selecciónala → pestaña Insertar → Tabla → Convertir texto en tabla.
-   - Ajusta los márgenes a 2.5 cm en todos los lados (Diseño de página → Márgenes → Márgenes personalizados).
-
-6. Guarda el documento (`Ctrl+S`).
-
-7. Toma una **captura de pantalla** del documento formateado en Word y guárdala como:
-   ```
-   Lab04_Captura1_ReporteTurno_[TusIniciales].png
    ```
 
-**Salida esperada:** Documento Word con el reporte de turno formateado, con estilos de título aplicados y tabla visible.
-
-**Verificación:** El archivo `.docx` debe estar guardado y el documento debe mostrar claramente todas las secciones con jerarquía visual correcta (título principal más grande que los encabezados de sección).
+**Salida esperada:** Documento Word con el reporte de turno 
 
 ---
 
 ### Ejercicio 2: Lista de Verificación de Seguridad
 
 **Objetivo del ejercicio:** Generar una lista de verificación de seguridad personalizada con criterios objetivos, estados OK/No OK/N.A. y evaluación global de aptitud, usando Copilot con un prompt detallado.
-
-**Tiempo estimado:** 25 minutos
 
 ---
 
@@ -328,8 +262,6 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 3. En el **Bloc de Notas**, escribe el prompt que construirás en el siguiente paso.
 
 **Salida esperada:** Claridad sobre los aspectos a cubrir y prompt preparado en el Bloc de Notas.
-
-**Verificación:** Puedes continuar cuando tengas identificadas al menos 5 categorías de verificación para el arranque de compresor.
 
 ---
 
@@ -365,7 +297,7 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
    - Agrega un bloque de firmas al final.
 
    FORMATO:
-   Presenta la checklist como una tabla Markdown con estas columnas:
+   Presenta la checklist como una tabla con estas columnas:
    | # | Categoría | Ítem de Verificación | Criterio de Aceptación | Estado (OK/No OK/N.A.) | Evidencia Requerida | Observaciones |
 
    Después de la tabla, agrega:
@@ -383,15 +315,7 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
    - ¿Hay ítems críticos de seguridad que Copilot omitió?
    - ¿Las acciones inmediatas para los ítems "No OK" son específicas y realizables?
 
-**Salida esperada:** Una tabla Markdown con al menos 12 ítems de verificación organizados en 4 categorías, 2 ítems marcados como "No OK" con observaciones, evaluación global y bloque de firmas.
-
-**Verificación:** La checklist generada debe contener:
-- [ ] Al menos 12 ítems en la tabla
-- [ ] Las 4 categorías solicitadas (EPP, Condiciones, Equipo, Seguridad)
-- [ ] Criterios de aceptación con valores numéricos o condiciones verificables (no frases como "en buen estado")
-- [ ] Exactamente 2 ítems marcados como "No OK" con observación y acción
-- [ ] Evaluación global con regla explícita
-- [ ] Bloque de firmas al final
+**Salida esperada:** Una tabla con al menos 12 ítems de verificación organizados en 4 categorías, 2 ítems marcados como "No OK" con observaciones, evaluación global y bloque de firmas.
 
 ---
 
@@ -429,34 +353,15 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 
 5. Haz clic en la celda **A1** de la primera hoja. Renombra la hoja como `Checklist_C05` (doble clic en la pestaña de la hoja → escribe el nuevo nombre → Enter).
 
-6. Pega el contenido (`Ctrl+V`). Si Excel no separa correctamente las columnas:
-   - Selecciona la columna A completa.
-   - Ve a **Datos** → **Texto en columnas** → **Delimitado** → marca **Tabulación** → **Finalizar**.
+6. Pega el contenido (`Ctrl+V`) y Guarda el archivo (`Ctrl+S`). 
 
-7. Aplica formato básico:
-   - Fila de encabezados (metadatos): fondo **azul oscuro**, texto **blanco**, fuente en negrita.
-   - Fila de títulos de columna: fondo **azul claro**, texto en negrita.
-   - Ítems marcados "No OK": fondo **rojo claro** (selecciona las celdas de estado → Inicio → Color de relleno → rojo claro).
-   - Ítems marcados "OK": fondo **verde claro**.
-   - Ajusta el ancho de columnas (selecciona todas → doble clic en borde de columna para autoajustar).
-
-8. Guarda el archivo (`Ctrl+S`).
-
-**Salida esperada:** Hoja de Excel con la checklist formateada, columna "Crítico (S/N)" visible, ítems No OK resaltados en rojo y metadatos de versión en el encabezado.
-
-**Verificación:** El archivo Excel debe mostrar:
-- [ ] Encabezado con metadatos del documento (nombre, versión, fecha)
-- [ ] Columna "Crítico (S/N)" correctamente poblada
-- [ ] Celdas de ítems "No OK" con fondo rojo claro
-- [ ] Todas las columnas visibles sin texto cortado
+**Salida esperada:** Hoja de Excel con la checklist
 
 ---
 
 ### Ejercicio 3: Formato de Inspección Simple
 
 **Objetivo del ejercicio:** Diseñar un formato de inspección simple con secciones estructuradas, campos de captura, escala de severidad y acción correctiva, usando Copilot como asistente de diseño.
-
-**Tiempo estimado:** 20 minutos
 
 ---
 
@@ -521,7 +426,7 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
    Presenta cada sección claramente delimitada con título en negrita.
    Usa una combinación de campos etiquetados (Etiqueta: Valor) y
    tablas donde sea apropiado. Al final, agrega una versión compacta
-   en formato YAML del mismo hallazgo (solo los campos clave).
+   del mismo hallazgo (solo los campos clave).
    Responde en español.
    ```
 
@@ -529,15 +434,7 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 
 4. Revisa el formato generado verificando que todas las secciones estén presentes y que la información sea técnicamente coherente (por ejemplo, que una fuga de vapor de 3 bar tenga severidad Media o Alta, no Baja).
 
-**Salida esperada:** Un formato de inspección completo con las 6 secciones solicitadas, información técnicamente coherente para una fuga de válvula, y una versión YAML compacta al final.
-
-**Verificación:** El formato debe contener:
-- [ ] Las 6 secciones claramente delimitadas con títulos
-- [ ] ID de inspección en formato INSP-20260523-001
-- [ ] Clasificación de severidad con justificación (no solo la etiqueta)
-- [ ] Acción correctiva con responsable, fecha y número de OT ficticio
-- [ ] Lista de evidencias (fotos ficticias)
-- [ ] Versión YAML al final con campos clave
+**Salida esperada:** Un formato de inspección completo con las 6 secciones solicitadas, información técnicamente coherente para una fuga de válvula.
 
 ---
 
@@ -565,7 +462,7 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
       - Fecha de emisión
       - Departamento responsable
       - Frecuencia de uso recomendada
-   4. Mantén la versión YAML al final, también con campos vacíos.
+   4. Mantén la versión al final, también con campos vacíos.
    5. El resultado debe poder imprimirse en 1-2 páginas tamaño carta.
    ```
 
@@ -575,22 +472,9 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
 
 4. En tu archivo **Excel**, crea una **segunda hoja** y renómbrala como `Formato_Inspeccion`.
 
-5. En la celda A1, pega el contenido de la plantilla. Aplica formato básico:
-   - Títulos de sección: negrita, tamaño de fuente 12, fondo gris claro.
-   - Campos de captura: celdas con borde visible para facilitar el llenado.
-   - Ajusta el ancho de columna A a 180 px para que el texto sea legible.
+5. Guarda el archivo.
 
-6. Alternativamente, puedes pegar la plantilla en tu documento **Word** en una nueva página después del reporte de turno, si prefieres trabajar en un solo archivo.
-
-7. Guarda el archivo.
-
-**Salida esperada:** Plantilla de inspección en blanco con campos {{marcadores}}, casillas de selección para clasificación, bloque de control con metadatos del documento y versión YAML vacía.
-
-**Verificación:** La plantilla debe:
-- [ ] Tener bloque de control con código FORM-INSP-001 y versión 1.0
-- [ ] Mostrar campos vacíos en formato {{campo}} en lugar de valores específicos
-- [ ] Incluir casillas de selección para Severidad, Prioridad y Riesgo
-- [ ] Estar guardada en Excel o Word
+**Salida esperada:** Plantilla de inspección.
 
 ---
 
@@ -627,42 +511,16 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
    - 2.0 - 2.9: Requiere atención urgente
    - 1.0 - 1.9: Requiere parada y acción inmediata
 
-   Presenta el resultado como tabla Markdown. Responde en español.
+   Presenta el resultado como tabla. Responde en español.
    ```
 
 2. Envía el prompt y revisa la tabla generada.
 
 3. Copia la tabla y pégala en una **tercera hoja** de tu archivo Excel, renombrada como `Inspeccion_Numerica`.
 
-4. En Excel, agrega una fórmula para calcular automáticamente el Índice de Condición General:
-   - Identifica la columna de calificaciones (supongamos que es la columna C, filas 3 a 10).
-   - En la celda C12, escribe:
-     ```
-     =PROMEDIO(C3:C10)
-     ```
-   - En la celda D12, escribe una fórmula condicional para mostrar la interpretación:
-     ```
-     =SI(C12>=4,"Condición satisfactoria",SI(C12>=3,"Requiere atención programada",SI(C12>=2,"Requiere atención urgente","Requiere parada inmediata")))
-     ```
-   - Ajusta los rangos de fila según cómo Copilot haya estructurado la tabla.
+4. Guarda el archivo.
 
-5. Guarda el archivo.
-
-**Salida esperada:** Tabla de inspección de subestación eléctrica con escala 1-5, al menos 8 puntos de inspección y fórmula de Índice de Condición General funcionando en Excel.
-
-**Verificación:** 
-- [ ] La tabla tiene al menos 8 puntos de inspección en 3 categorías
-- [ ] La fórmula `=PROMEDIO(...)` calcula un valor numérico visible
-- [ ] La fórmula `=SI(...)` muestra la interpretación textual correcta
-- [ ] El archivo Excel tiene las 3 hojas: Checklist_C05, Formato_Inspeccion, Inspeccion_Numerica
-
----
-
-### Cierre y Reflexión: Validación Humana y Mejores Prácticas
-
-**Objetivo:** Consolidar el aprendizaje mediante reflexión crítica sobre el uso responsable de IA para documentación de seguridad y operaciones.
-
-**Tiempo estimado:** 15 minutos
+**Salida esperada:** Tabla de inspección.
 
 ---
 
@@ -744,114 +602,10 @@ Realiza los siguientes pasos de configuración **antes** de iniciar los ejercici
    final. Máximo 1 página. Responde en español.
    ```
 
-3. Copia la respuesta generada y pégala en tu documento **Word**, en una nueva página al final del reporte de turno, con el título: **"Anexo: Mejores Prácticas para Validación de Documentos Generados por IA"**.
-
+3. Copia la respuesta generada y pégala en tu documento **Word**.
 4. Guarda el documento Word.
 
 **Salida esperada:** Guía de mejores prácticas de validación integrada como anexo en el documento Word, con los 5 riesgos, proceso de 4 pasos, criterios de aceptación y roles de validación.
-
-**Verificación:**
-- [ ] La guía está pegada en el documento Word como anexo
-- [ ] Cubre los 4 puntos solicitados en el prompt
-- [ ] El documento Word está guardado con el anexo incluido
-
----
-
-## Validación y Pruebas Finales
-
-Antes de cerrar la práctica, realiza la siguiente verificación integral de todos los entregables:
-
-### Lista de verificación de entregables
-
-| # | Entregable | Criterio de Éxito | ¿Completado? |
-|---|------------|-------------------|--------------|
-| 1 | `Lab04_ReporteTurno_[TusIniciales]_[Fecha].docx` | Contiene reporte refinado con 5 secciones + Anexo de mejores prácticas | [ ] |
-| 2 | `Lab04_Checklist_Inspeccion_[TusIniciales]_[Fecha].xlsx` — Hoja `Checklist_C05` | Checklist con ≥12 ítems, columna Crítico, formato de colores aplicado | [ ] |
-| 3 | `Lab04_Checklist_Inspeccion_[TusIniciales]_[Fecha].xlsx` — Hoja `Formato_Inspeccion` | Plantilla en blanco con campos {{marcadores}} y bloque de control | [ ] |
-| 4 | `Lab04_Checklist_Inspeccion_[TusIniciales]_[Fecha].xlsx` — Hoja `Inspeccion_Numerica` | Tabla con escala 1-5 y fórmulas de promedio e interpretación funcionando | [ ] |
-| 5 | `Lab04_Autoevaluacion_[TusIniciales]_[Fecha].txt` | Autoevaluación completada para los 3 documentos | [ ] |
-| 6 | Captura de pantalla del reporte en Word | Imagen guardada mostrando formato aplicado | [ ] |
-
-### Prueba de calidad de prompts
-
-Para verificar que dominaste la técnica de prompting estructurado, responde las siguientes preguntas sin consultar la guía:
-
-1. ¿Cuáles son los tres componentes del prompt estructurado aplicados en esta práctica?
-2. ¿Qué diferencia hay entre un criterio de aceptación objetivo y uno subjetivo en una checklist?
-3. ¿Por qué se recomienda iniciar una nueva conversación en Copilot para cada ejercicio diferente?
-4. ¿Qué campos mínimos debe tener un formato de inspección para ser auditable?
-
-> 💡 **Respuestas esperadas:** (1) Contexto, Tarea y Formato. (2) Objetivo: valor numérico o condición verificable; subjetivo: "en buen estado". (3) Para evitar que el contexto de conversaciones anteriores contamine las nuevas respuestas. (4) ID, activo, inspector, fecha, condición encontrada, estándar esperado, severidad, acción correctiva y evidencia.
-
----
-
-## Solución de Problemas
-
-### Problema 1: Copilot genera la respuesta en inglés o mezcla idiomas
-
-**Síntoma:** La respuesta de Copilot aparece total o parcialmente en inglés, a pesar de que el prompt fue escrito en español.
-
-**Causa probable:** La configuración de idioma de Copilot está establecida en inglés, o el navegador tiene preferencia de idioma en inglés, lo que puede influir en el idioma de las respuestas.
-
-**Solución:**
-
-1. Al final de tu prompt, agrega explícitamente la instrucción: `Responde completamente en español. No uses inglés en ninguna parte de la respuesta.`
-2. Si el problema persiste, verifica la configuración de idioma de Copilot: haz clic en el ícono de configuración (⚙️) en la esquina superior derecha → busca la opción de idioma → selecciona **Español (España)** o **Español (México)** según tu preferencia.
-3. Verifica también que el idioma de tu navegador esté configurado en español: en Edge, ve a **Configuración** → **Idiomas** → asegúrate de que el español aparezca primero en la lista.
-4. Si usas la alternativa ChatGPT, escribe al inicio de cada prompt: `Por favor responde siempre en español.`
-
----
-
-### Problema 2: Las tablas generadas por Copilot no se pegan correctamente en Excel
-
-**Síntoma:** Al copiar una tabla Markdown de Copilot y pegarla en Excel, todo el contenido aparece en una sola columna (columna A), sin separación entre celdas, o los caracteres `|` aparecen como texto literal.
-
-**Causa probable:** Excel no interpreta el formato de tabla Markdown directamente. El contenido se pega como texto plano sin reconocer los separadores de columna.
-
-**Solución — Método 1 (Texto en columnas):**
-1. Pega el contenido en la columna A de Excel.
-2. Selecciona toda la columna A.
-3. Ve a la pestaña **Datos** → **Texto en columnas**.
-4. Selecciona **Delimitado** → **Siguiente**.
-5. Marca la casilla **Otro** e ingresa el carácter `|` en el campo de texto → **Siguiente** → **Finalizar**.
-6. Elimina las columnas vacías que se generan al inicio y al final (resultado de los `|` de los bordes de la tabla Markdown).
-
-**Solución — Método 2 (Solicitar TSV a Copilot):**
-1. En lugar de copiar la tabla Markdown directamente, envía un prompt adicional a Copilot: `Por favor, convierte la tabla anterior a formato TSV (valores separados por tabulaciones) para poder pegarla directamente en Excel.`
-2. Copia el resultado TSV y pégalo directamente en Excel. Las columnas se separarán automáticamente.
-
-**Solución — Método 3 (Word como intermediario):**
-1. Pega la tabla Markdown en Microsoft Word.
-2. Word generalmente convierte las tablas Markdown automáticamente.
-3. Selecciona la tabla ya formateada en Word → cópiala → pégala en Excel.
-
----
-
-## Limpieza y Cierre
-
-Al finalizar la práctica, realiza los siguientes pasos de cierre:
-
-1. **Guarda todos los archivos** una última vez:
-   - `Ctrl+S` en Word
-   - `Ctrl+S` en Excel
-   - Guarda el archivo `.txt` de autoevaluación en el Bloc de Notas
-
-2. **Organiza los archivos** en una carpeta dedicada:
-   ```
-   Mis Documentos/
-   └── Curso_Copilot/
-       └── Lab04_Practica4/
-           ├── Lab04_ReporteTurno_[TusIniciales]_[Fecha].docx
-           ├── Lab04_Checklist_Inspeccion_[TusIniciales]_[Fecha].xlsx
-           ├── Lab04_Autoevaluacion_[TusIniciales]_[Fecha].txt
-           └── Lab04_Captura1_ReporteTurno_[TusIniciales].png
-   ```
-
-3. **Cierra las conversaciones de Copilot:** No es necesario eliminarlas, pero es buena práctica cerrar las pestañas del navegador usadas durante la práctica para liberar memoria.
-
-4. **Guarda tus prompts favoritos:** Si identificaste prompts que funcionaron especialmente bien durante la práctica, cópialos en un archivo separado llamado `MisPrompts_Lab04.txt`. Estos prompts son reutilizables en tu trabajo diario.
-
-5. **Reflexión final (opcional):** Antes de cerrar, escribe en el Bloc de Notas una respuesta breve a esta pregunta: *"¿Cuál de los tres tipos de documentos (reporte de turno, checklist de seguridad, formato de inspección) representa el mayor ahorro de tiempo para tu trabajo actual, y por qué?"* Esta reflexión puede compartirse en la discusión grupal de cierre del curso.
 
 ---
 
@@ -873,13 +627,6 @@ En esta práctica aplicaste las técnicas de prompting estructurado al contexto 
 
 - **Criterios objetivos vs. subjetivos:** Una checklist de seguridad solo es útil si sus criterios de aceptación son medibles y verificables. Aprendiste a pedir a Copilot criterios con valores numéricos o condiciones específicas, no frases vagas.
 
-### Próximos pasos recomendados
-
-- Adapta las plantillas generadas en esta práctica a tu área de trabajo real (con datos anonimizados) y compártelas con tu equipo para obtener retroalimentación.
-- Crea una biblioteca personal de prompts para los documentos que generas con mayor frecuencia en tu rol.
-- Explora la integración de Copilot directamente en Word y Excel (Microsoft 365 Copilot) para generar documentos sin salir de las aplicaciones de Office.
-- Revisa las referencias normativas (ISO 45001, OSHA) para asegurarte de que tus checklists de seguridad cubren los requisitos regulatorios aplicables a tu industria.
-
 ### Referencias y recursos adicionales
 
 | Recurso | Descripción | URL |
@@ -889,6 +636,14 @@ En esta práctica aplicaste las técnicas de prompting estructurado al contexto 
 | HSE — Gestión del riesgo | Principios y guía para gestión de riesgos | [hse.gov.uk/risk](https://www.hse.gov.uk/risk/) |
 | PlainLanguage.gov | Guía de lenguaje claro para documentos técnicos | [plainlanguage.gov/guidelines](https://www.plainlanguage.gov/guidelines/) |
 | Microsoft Copilot | Acceso a la herramienta principal del curso | [copilot.microsoft.com](https://copilot.microsoft.com) |
+
+### Resultado Esperado
+
+- Expediente de Documentación Operativa: El participante consolida un reporte de turno jerarquizado por criticidad en Word y un libro de Excel con tres hojas funcionales: una checklist de seguridad indexada por criticidad, una plantilla de inspección reutilizable y un formato de inspección numérica con fórmulas automatizadas de ponderación e interpretación condicional.
+
+- Destreza en Estructuración Operativa y Tratamiento de Datos: Capacidad para transformar notas de campo desordenadas e informales en un flujo estructurado sin perder la trazabilidad técnica ni alterar los umbrales de los activos analizados.
+
+- Gobierno de la Información y Gestión del Riesgo: Inclusión obligatoria de una guía de mejores prácticas y un ejercicio de autoevaluación crítica que documente los riesgos de aplicar directamente salidas de la IA en entornos industriales sin una auditoría humana experta previa.
 
 ---
 
