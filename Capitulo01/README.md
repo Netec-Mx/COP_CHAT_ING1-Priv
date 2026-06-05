@@ -1,4 +1,4 @@
-# Cómo hablarle a la IA: Contexto, Tarea y Formato
+# Práctica 1: Cómo hablarle a la IA: Contexto, Tarea y Formato
 
 ## Metadatos
 
