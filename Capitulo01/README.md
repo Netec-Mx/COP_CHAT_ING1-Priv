@@ -545,8 +545,7 @@ En esta práctica introductoria usted:
 |--------------------------------------------------|--------------------------------------------------------------------------------------|
 | Guía oficial de Prompt Engineering (OpenAI)      | https://platform.openai.com/docs/guides/prompt-engineering                           |
 | Microsoft Learn — Ingeniería de prompts          | https://learn.microsoft.com/es-es/azure/ai-services/openai/concepts/prompt-engineering |
-| PromptingGuide.ai — Técnicas y patrones          | https://www.promptingguide.ai/                                                       |
-| Nielsen Norman Group — Prompting para todos      | https://www.nngroup.com/articles/prompt-engineering/                                 |
+| PromptingGuide.ai — Técnicas y patrones          | https://www.promptingguide.ai/                                                                            |
 | Centro de ayuda de Microsoft Copilot             | https://support.microsoft.com/es-es/copilot                                          |
 
 ### Resultado Esperado
