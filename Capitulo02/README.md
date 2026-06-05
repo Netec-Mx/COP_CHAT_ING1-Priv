@@ -1,4 +1,4 @@
-# Creación de casos de negocios, actas, cronogramas preliminares, interesados, lecciones aprendidas y redacción de correos contractuales.
+# Práctica 2: Creación de casos de negocios, actas, cronogramas preliminares, interesados, lecciones aprendidas y redacción de correos contractuales.
 
 ## Metadatos
 
