@@ -619,11 +619,7 @@ En esta práctica aplicó el patrón **CTF (Contexto, Tarea, Formato)** en tres 
 
 | Recurso | URL | Relevancia |
 |---------|-----|------------|
-| Microsoft Learn: Introducción a Copilot para M365 | https://learn.microsoft.com/es-es/microsoft-365-copilot/overview | Fundamentos oficiales de Copilot |
 | Ingeniería de prompts — Azure OpenAI | https://learn.microsoft.com/es-es/azure/ai-services/openai/concepts/prompt-engineering | Técnicas avanzadas de prompting |
-| Matriz de Eisenhower (Atlassian) | https://www.atlassian.com/time-management/priority-matrix | Referencia del marco de priorización |
-| Priorización MoSCoW (ProductPlan) | https://www.productplan.com/glossary/moscow-prioritization/ | Referencia del marco MoSCoW |
-| Resumen de documentos con Copilot en Word | https://support.microsoft.com/es-es/office/introducción-a-microsoft-copilot-en-word-91d5b19a-8e61-4c9a-8427-474ce6a579a9 | Aplicación en Microsoft Word |
 
 ---
 
