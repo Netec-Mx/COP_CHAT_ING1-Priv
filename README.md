@@ -14,7 +14,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
 ### Capítulo 1
 
-- [Práctica 1: Cómo hablarle a la IA: Contexto, Tarea y Formato.](Capitulo01/README.md#cómo-hablarle-a-la-ia-contexto-tarea-y-formato)
+### [Práctica 1: Cómo hablarle a la IA: Contexto, Tarea y Formato.](Capitulo01/README.md#cómo-hablarle-a-la-ia-contexto-tarea-y-formato)
   
   - Descripción: Esta práctica establece los fundamentos del curso al enseñar cómo comunicarse de manera efectiva con una IA generativa usando el modelo CTF: Contexto, Tarea y Formato. El participante explorará la interfaz de Microsoft Copilot, comparará resultados de prompts vagos versus prompts estructurados, y construirá prompts originales aplicando la metodología CTF en escenarios laborales reales. Al finalizar, el participante contará con una plantilla reutilizable y criterio propio para iterar y mejorar sus instrucciones a la IA.
     
@@ -22,7 +22,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
 ### Capítulo 2
 
-- [Práctica 2: Creación de casos de negocios, actas, cronogramas preliminares, interesados, lecciones aprendidas y redacción de correos contractuales.](Capitulo02/README.md#creación-de-casos-de-negocios-actas-cronogramas-preliminares-interesados-lecciones-aprendidas-y-redacción-de-correos-contractuales)
+### [Práctica 2: Creación de casos de negocios, actas, cronogramas preliminares, interesados, lecciones aprendidas y redacción de correos contractuales.](Capitulo02/README.md#creación-de-casos-de-negocios-actas-cronogramas-preliminares-interesados-lecciones-aprendidas-y-redacción-de-correos-contractuales)
   
   - Descripción: En esta práctica aplicarás la metodología Contexto–Tarea–Formato (CTF) y la técnica de prompting en cadena para generar, en Microsoft Copilot, seis artefactos profesionales de gestión de proyectos: caso de negocio, acta de reunión, cronograma preliminar, matriz de interesados, lecciones aprendidas y correos contractuales. Todos los documentos girarán alrededor de un escenario ficticio pero realista: la implementación de un sistema de control de inventarios en la empresa mediana "Distribuidora Andina S.A.". Al finalizar, habrás construido un portafolio documental completo y desarrollado criterio crítico para evaluar y mejorar las respuestas de la IA antes de su uso profesional.
     
