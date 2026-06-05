@@ -614,9 +614,8 @@ En esta práctica de 180 minutos construiste un **portafolio documental completo
 ### Recursos adicionales recomendados
 
 - [Guía PMBOK – Estándares PMI](https://www.pmi.org/pmbok-guide-standards/foundational/pmbok) — Referencia para los artefactos de gestión de proyectos.
-- [PMI – Stakeholder Engagement](https://www.pmi.org/learning/library/stakeholder-analysis-techniques-11051) — Profundizar en análisis de interesados.
 - [Microsoft Copilot – Centro de ayuda](https://support.microsoft.com/copilot) — Documentación oficial y consejos de uso.
-- [NASA Lessons Learned](https://llis.nasa.gov) — Repositorio de referencia para lecciones aprendidas en proyectos complejos.
+
 - **Práctica recomendada:** Toma uno de los documentos generados hoy y aplícalo a un proyecto real de tu organización (con datos anonimizados). Mide el tiempo que tardas en adaptarlo vs. el tiempo que tardarías en crearlo desde cero.
 
 ---
