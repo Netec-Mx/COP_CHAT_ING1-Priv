@@ -1,4 +1,4 @@
-# Uso de Copilot para priorizar listas de pendientes, estructurar pasos para una tarea técnica y extraer puntos clave de manuales extensos.
+# Práctica 3: Uso de Copilot para priorizar listas de pendientes, estructurar pasos para una tarea técnica y extraer puntos clave de manuales extensos.
 
 ## 1. Metadatos
 
