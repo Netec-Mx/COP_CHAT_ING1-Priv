@@ -30,7 +30,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
 ### Capítulo 3
 
-- [Práctica 3: Uso de Copilot para priorizar listas de pendientes, estructurar pasos para una tarea técnica y extraer puntos clave de manuales extensos.](Capitulo03/README.md#uso-de-copilot-para-priorizar-listas-de-pendientes-estructurar-pasos-para-una-tarea-técnica-y-extraer-puntos-clave-de-manuales-extensos)
+### [Práctica 3: Uso de Copilot para priorizar listas de pendientes, estructurar pasos para una tarea técnica y extraer puntos clave de manuales extensos.](Capitulo03/README.md#uso-de-copilot-para-priorizar-listas-de-pendientes-estructurar-pasos-para-una-tarea-técnica-y-extraer-puntos-clave-de-manuales-extensos)
   
   - Descripción: Esta práctica transforma tres desafíos cotidianos de productividad —la sobrecarga de tareas, la ambigüedad en procedimientos técnicos y la densidad de manuales extensos— en resultados claros y accionables usando Microsoft Copilot. A través de tres bloques progresivos, el participante aplicará el patrón de prompting CTF (Contexto, Tarea, Formato) para priorizar pendientes con marcos estructurados (MoSCoW y Eisenhower), generar guías técnicas paso a paso con puntos de control, y extraer síntesis ejecutivas de documentos largos. Al finalizar, habrá construido una biblioteca personal de prompts reutilizables adaptados a su área de trabajo.
     
@@ -38,7 +38,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
 ### Capítulo 4
 
-- [Práctica 4: Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.](Capitulo04/README.md#1-práctica-4-creación-de-borradores-para-reportes-de-turno-listas-de-verificación-de-seguridad-y-formatos-de-inspección-simple)
+### [Práctica 4: Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.](Capitulo04/README.md#1-práctica-4-creación-de-borradores-para-reportes-de-turno-listas-de-verificación-de-seguridad-y-formatos-de-inspección-simple)
   
   - Descripción: En esta práctica aplicarás las técnicas de prompting estructurado (Contexto, Tarea y Formato) aprendidas en el curso para generar tres tipos de documentos operativos críticos: reportes de turno, listas de verificación de seguridad y formatos de inspección simple. Partirás de notas desordenadas y datos simulados para producir borradores profesionales con Microsoft Copilot, y luego los refinarás y exportarás a Word o Excel. La práctica cierra con una reflexión guiada sobre la validación humana de documentos generados por IA en entornos de seguridad y operaciones.
     
